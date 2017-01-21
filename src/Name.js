@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Name.css';
+import './Name.scss';
 
 const Name = (props) => (
   <div className={'name ' + (props.type ? props.type : '')}>{props.name}</div>
